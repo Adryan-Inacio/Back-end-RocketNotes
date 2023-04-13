@@ -42,8 +42,4 @@ describe('UserCreateService', () => {
       new AppError('Este email já está em uso.')
     )
   })
-
-  it('Note was created', async () => {
-    // TENTAR CRIAR TESTE PARA CADASTRO DE NOTA COMO TAREFA DA AULA DE ENCERRAMENTO, USAR REPOSITORY IN MEMORY PARA ISSO
-  })
 })
